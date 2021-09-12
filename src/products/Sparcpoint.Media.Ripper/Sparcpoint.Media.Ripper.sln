@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparcpoint.Media.Ripper.CLI", "src\Sparcpoint.Media.Ripper.CLI\Sparcpoint.Media.Ripper.CLI.csproj", "{61CD9245-EA2E-4C2D-B4D2-C01103E7538F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{07E09ECC-151B-45A3-9163-8DB460AE84DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparcpoint.Media", "..\..\libraries\Sparcpoint.Media\src\Sparcpoint.Media.csproj", "{1A68DD6B-FD71-4008-8660-0260C4F64F8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparcpoint.Media.Ripper", "..\..\libraries\Sparcpoint.Media.Ripper\src\Sparcpoint.Media.Ripper.csproj", "{377AB6F0-A827-4CEB-B5CB-58B9C2D7B782}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparcpoint.Media.Ripper.MakeMKV", "..\..\libraries\Sparcpoint.Media.Ripper.MakeMKV\src\Sparcpoint.Media.Ripper.MakeMKV.csproj", "{F1C47A0A-FF7B-4466-B10A-8CB908D9310F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D1931215-825A-4EDD-ACE0-67C0D6F906B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparcpoint.Media.Ripper.MakeMKV.Tests", "..\..\libraries\Sparcpoint.Media.Ripper.MakeMKV\tests\Sparcpoint.Media.Ripper.MakeMKV.Tests.csproj", "{DE021839-610C-4751-9E92-2E3171FE68F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparcpoint.Media.Tests", "..\..\libraries\Sparcpoint.Media\tests\Sparcpoint.Media.Tests.csproj", "{B46CDB8E-BA78-46D6-A380-1B44BE1E427F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparcpoint.Media.Extensions.Logging", "..\..\libraries\Sparcpoint.Media.Extensions.Logging\src\Sparcpoint.Media.Extensions.Logging.csproj", "{DC541B19-CCAB-45A6-B6CE-58A78626A72D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61CD9245-EA2E-4C2D-B4D2-C01103E7538F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CD9245-EA2E-4C2D-B4D2-C01103E7538F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CD9245-EA2E-4C2D-B4D2-C01103E7538F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CD9245-EA2E-4C2D-B4D2-C01103E7538F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A68DD6B-FD71-4008-8660-0260C4F64F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A68DD6B-FD71-4008-8660-0260C4F64F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A68DD6B-FD71-4008-8660-0260C4F64F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A68DD6B-FD71-4008-8660-0260C4F64F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377AB6F0-A827-4CEB-B5CB-58B9C2D7B782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377AB6F0-A827-4CEB-B5CB-58B9C2D7B782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377AB6F0-A827-4CEB-B5CB-58B9C2D7B782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377AB6F0-A827-4CEB-B5CB-58B9C2D7B782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C47A0A-FF7B-4466-B10A-8CB908D9310F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C47A0A-FF7B-4466-B10A-8CB908D9310F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C47A0A-FF7B-4466-B10A-8CB908D9310F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C47A0A-FF7B-4466-B10A-8CB908D9310F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE021839-610C-4751-9E92-2E3171FE68F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE021839-610C-4751-9E92-2E3171FE68F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE021839-610C-4751-9E92-2E3171FE68F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE021839-610C-4751-9E92-2E3171FE68F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46CDB8E-BA78-46D6-A380-1B44BE1E427F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46CDB8E-BA78-46D6-A380-1B44BE1E427F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46CDB8E-BA78-46D6-A380-1B44BE1E427F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46CDB8E-BA78-46D6-A380-1B44BE1E427F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC541B19-CCAB-45A6-B6CE-58A78626A72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC541B19-CCAB-45A6-B6CE-58A78626A72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC541B19-CCAB-45A6-B6CE-58A78626A72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC541B19-CCAB-45A6-B6CE-58A78626A72D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A68DD6B-FD71-4008-8660-0260C4F64F8C} = {07E09ECC-151B-45A3-9163-8DB460AE84DC}
+		{377AB6F0-A827-4CEB-B5CB-58B9C2D7B782} = {07E09ECC-151B-45A3-9163-8DB460AE84DC}
+		{F1C47A0A-FF7B-4466-B10A-8CB908D9310F} = {07E09ECC-151B-45A3-9163-8DB460AE84DC}
+		{DE021839-610C-4751-9E92-2E3171FE68F6} = {D1931215-825A-4EDD-ACE0-67C0D6F906B8}
+		{B46CDB8E-BA78-46D6-A380-1B44BE1E427F} = {D1931215-825A-4EDD-ACE0-67C0D6F906B8}
+		{DC541B19-CCAB-45A6-B6CE-58A78626A72D} = {07E09ECC-151B-45A3-9163-8DB460AE84DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88A66FBF-8C82-4A0A-96C7-FCA922EC8D0C}
+	EndGlobalSection
+EndGlobal

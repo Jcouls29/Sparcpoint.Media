@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Sparcpoint.Media.Ripper\src\Sparcpoint.Media.Ripper.csproj" />
+    <ProjectReference Include="..\..\Sparcpoint.Media\src\Sparcpoint.Media.csproj" />
+  </ItemGroup>
+
+</Project>

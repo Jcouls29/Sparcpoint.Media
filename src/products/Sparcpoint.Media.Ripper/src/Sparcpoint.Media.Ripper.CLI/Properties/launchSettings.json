@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Sparcpoint.Media.Ripper.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "-m PlexTV_Custom -o \"C:\\Users\\jcoul\\Videos\\Raw\" -t \"Quantum Leap\" --min-length 40 --max-length 115 --season 2"
+    }
+  }
+}
